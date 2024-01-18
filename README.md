@@ -8,3 +8,6 @@ The dataset used contains sequential speech recognition data: it is made up of 4
 
 
 The dataset consists of 30 classes, where each class represents a spoken word. The words present in the dataset are: bed, eight, house, off, sheila, two, bird, five, left, one, six, up, cat, four, marvel, on, stop, wow, dog, go, nine, right , three, yes, down, happy, no, seven, tree, zero.
+
+
+The architectures used in this analysis are MLP (Multi-Layer Perceptron) and CNN (Convolutional Neural Network). In both cases, a first phase of selection of the optimal hyperparameters was carried out, through the sklearn ParameterGrid class.
